@@ -1,0 +1,46 @@
+.home{
+    padding: 0px;
+    margin: 0px;
+}
+.home img{
+    width: 100%;
+    height: 600px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.sliderContent{
+    position: absolute;
+    top:40%;
+    left: 20%;
+    
+}
+
+.sliderContent h1{
+    color: white;
+    font-size: 20;
+    padding: 10px;
+}
+
+.sliderContent a{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px){
+    .home img{
+        height: 700px;
+    } 
+    .sliderContent{
+        position: absolute;
+        top:50%;
+        left: 10%;
+        
+    }
+    .sliderContent h1{
+        color: white;
+        font-size: 18;
+        padding: 10px;
+    }
+    
+}
