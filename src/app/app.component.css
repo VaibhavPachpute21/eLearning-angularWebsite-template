@@ -1,0 +1,16 @@
+.navbar{
+    background-color: cornsilk;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 18px;
+}
+
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: black;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
