@@ -1,0 +1,15 @@
+.joinnow{
+    background-color: aliceblue;
+    padding: 150px;
+}
+.login{
+    background-color: white;
+    padding: 20px 15px;
+}
+
+@media screen and (max-width:600px) {
+    .joinnow{
+        background-color: aliceblue;
+        padding:50px 10px;
+    }    
+}

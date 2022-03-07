@@ -1,0 +1,22 @@
+.about{
+    padding: 10px 100px;
+    background-color: aliceblue;
+}
+
+.box{
+    background-color: wheat;
+    padding: 20px;
+}
+
+.follow a{
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+@media screen and (max-width:600px) {
+    .about{
+        padding: 10px 10px;
+        background-color: aliceblue;
+    }     
+}
